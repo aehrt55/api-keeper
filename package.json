@@ -1,0 +1,18 @@
+{
+  "name": "api-keeper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Xin Li <aehrt55@aehrt55.net>",
+  "license": "MIT",
+  "scripts": {
+    "proxy": "APP_MODE=proxy yarn start",
+    "mock": "APP_MODE=mock yarn start",
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "http-proxy": "^1.16.2",
+    "mongoose": "^4.11.9"
+  }
+}
